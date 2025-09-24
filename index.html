@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Plantilla Web Premium para Técnicos | AgudeloTech</title>
+  <meta name="description" content="Plantilla web lista para usar para técnicos de celulares y computadores. Incluye catálogo, WhatsApp, modo oscuro, zoom y más.">
+  
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    :root {
+      --color-acento: #00d9ff;
+      --color-secundario: #8a2be2;
+      --fondo-oscuro: #0a0a0a;
+      --texto-blanco: #ffffff;
+    }
+
+    body {
+      background: var(--fondo-oscuro);
+      color: var(--texto-blanco);
+      font-family: 'Roboto', sans-serif;
+      line-height: 1.6;
+      overflow-x: hidden;
+    }
+
+    header {
+      text-align: center;
+      padding: 3rem 1.5rem;
+      background: linear-gradient(120deg, #0a0a0a, #1a1a2e);
+    }
+
+    h1 {
+      font-family: 'Orbitron', sans-serif;
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+      background: linear-gradient(90deg, var(--color-acento), var(--color-secundario));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      text-shadow: 0 0 15px rgba(0,217,255,0.3);
+    }
+
+    .subtitulo {
+      font-size: 1.2rem;
+      max-width: 700px;
+      margin: 0 auto 2rem;
+      color: #cccccc;
+    }
+
+    .precio {
+      font-size: 1.8rem;
+      font-weight: bold;
+      color: #ffde59;
+      margin: 1.5rem 0;
+      text-shadow: 0 0 10px rgba(255,222,89,0.5);
+    }
+
+    .btn-whatsapp {
+      display: inline-block;
+      background: #25D366;
+      color: white;
+      padding: 14px 28px;
+      border-radius: 50px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1.1rem;
+      margin: 1rem 0;
+      box-shadow: 0 4px 15px rgba(37, 211, 102, 0.4);
+      transition: all 0.3s ease;
+    }
+
+    .btn-whatsapp:hover {
+      transform: scale(1.05);
+      box-shadow: 0 6px 20px rgba(37, 211, 102, 0.6);
+    }
+
+    .btn-whatsapp i {
+      margin-right: 8px;
+    }
+
+    .contenedor {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 2rem 1.5rem;
+    }
+
+    section {
+      margin-bottom: 3rem;
+    }
+
+    h2 {
+      font-family: 'Orbitron', sans-serif;
+      font-size: 2rem;
+      margin-bottom: 1.5rem;
+      color: var(--color-acento);
+    }
+
+    .funcionalidades {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .funcionalidad {
+      background: rgba(20,20,20,0.8);
+      padding: 1.5rem;
+      border-radius: 12px;
+      border: 1px solid var(--color-secundario);
+      transition: transform 0.3s ease;
+    }
+
+    .funcionalidad:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 25px rgba(138,43,226,0.3);
+    }
+
+    .funcionalidad h3 {
+      color: var(--color-acento);
+      margin-bottom: 0.8rem;
+      font-size: 1.3rem;
+    }
+
+    .capturas {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 1.5rem;
+      margin-top: 1.5rem;
+    }
+
+    .captura {
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 8px 25px rgba(0,0,0,0.5);
+    }
+
+    .captura img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background: rgba(10,10,10,0.9);
+      margin-top: 3rem;
+      border-top: 1px solid #333;
+    }
+
+    @media (max-width: 768px) {
+      h1 { font-size: 2rem; }
+      .precio { font-size: 1.5rem; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>PLANTILLA WEB PREMIUM PARA TÉCNICOS</h1>
+    <p class="subtitulo">Diseño Moderno, Funcionalidades Avanzadas Y Listo Para Generar Ventas Por WhatsApp. ¡Sin Programar!</p>
+    <div class="precio">💰 $950.000 COP (Único Pago)</div>
+    <a href="https://wa.me/573186500044?text=Quiero%20la%20plantilla%20web%20para%20t%C3%A9cnicos" 
+       target="_blank" 
+       class="btn-whatsapp">
+      <i class="fab fa-whatsapp"></i> Comprar Ahora Por WhatsApp
+    </a>
+  </header>
+
+  <div class="contenedor">
+    <section>
+      <h2>✨ FUNCIONALIDADES INCLUIDAS</h2>
+      <div class="funcionalidades">
+        <div class="funcionalidad">
+          <h3>🛒 Catálogo Con WhatsApp</h3>
+          <p>Cada Producto Tiene Botón Directo A WhatsApp Con Mensaje Predefinido.</p>
+        </div>
+        <div class="funcionalidad">
+          <h3>🎉 Efecto Confeti</h3>
+          <p>Sorprende A Tus Clientes Con Confeti Al Hacer Clic En "Comprar".</p>
+        </div>
+        <div class="funcionalidad">
+          <h3>🔍 Zoom En Productos</h3>
+          <p>Tus Clientes Ven Los Detalles Antes De Contactarte.</p>
+        </div>
+        <div class="funcionalidad">
+          <h3>🌓 Modo Claro/Oscuro</h3>
+          <p>Se Adapta A La Preferencia Del Usuario Y La Recuerda.</p>
+        </div>
+        <div class="funcionalidad">
+          <h3>📱 100% Responsive</h3>
+          <p>Se Ve Perfecto En Móviles, Tablets Y Computadores.</p>
+        </div>
+        <div class="funcionalidad">
+          <h3>📍 SEO Local + Google Maps</h3>
+          <p>Aparece En Google Con Horario, Mapa Y Reseñas.</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>🖼️ CAPTURAS DE LA PLANTILLA</h2>
+      <div class="capturas">
+        <div class="captura">
+          <img src="img/inicio.jpg" alt="Inicio">
+        </div>
+        <div class="captura">
+          <img src="img/Productos.jpg" alt="Productos">
+        </div>
+        <div class="captura">
+          <img src="img/BotonFlotanteTecnico.jpg" alt="BotonFlotanteTecnico">
+        </div>
+        <div class="captura">
+          <img src="img/ModoClaro.jpg" alt="ModoClaro">
+        </div>
+      </div>
+      <p style="text-align:center; margin-top:1rem; color:#aaa;">
+        ⚠️ Estas Son Imágenes Reales Del Sitio Web ⚠️
+      </p>
+    </section>
+
+    <section style="text-align:center; background:rgba(20,20,20,0.5); padding:2rem; border-radius:16px;">
+      <h2>🚀 ¿CÓMO LA PERSONALIZAS?</h2>
+      <p style="max-width:800px; margin:0 auto 1.5rem;">
+        En Menos De 30 Minutos Cambias: Logo, Productos, Precios, WhatsApp, Ubicación Y Redes Sociales.
+      </p>
+      <a href="https://wa.me/573186500044?text=Quiero%20la%20plantilla%20web%20para%20t%C3%A9cnicos" 
+         target="_blank" 
+         class="btn-whatsapp">
+        <i class="fab fa-whatsapp"></i> ¡Quiero La Plantilla!
+      </a>
+    </section>
+  </div>
+
+  <footer>
+    <p>© 2025 AgudeloTech - Plantilla Web Premium Para Técnicos</p>
+    <p>Soporte Incluido: 1 Hora De Ayuda Para Personalizar Tu Sitio.</p>
+  </footer>
+</body>
+</html>
